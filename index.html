@@ -5,20 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        input {
+            width: 200px;
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+        input:focus {
+            font-size: 25px;
+            font-weight: bold;
+            color: #0051ff;
+        }
+        p:nth-child(2n+2) {
+            background: #00ff0d;
+        }
+       h1::before{
+           content: "hello";
+           color: red;
+           font-size: 40px;
+           background: #00ff0d;
+       }
+       h1::after {
+        content: "hello";
+        color: red;
+        font-size: 40px;
+        background: #00ff0d;
+       }
+       body {
+           counter-reset: section;
+       }
+       p::before {
+           content: "❤️  ";
+           margin-right: 25px;
+           font-size: 20px;
+       }
+    </style>
 </head>
 <body>
-    <h1>This is my first website</h1>
-    <h3>Hai Look I can push my code in Github ok. </h3>
-    <h3>Hai Look I can push my code in Github ok. </h3>
-    <h3>Hai Look I can push my code in Github ok. </h3>
-    <h3>Hai Look I can push my code in Github ok. </h3>
-    <h3>Hai Look I can push my code in Github ok. </h3>
-    <h3>Hai Look I </h3>
-    <h3>Hai Look I </h3>
-    <h3>Hai Look I </h3>
-    <h3>Hai Look I </h3>
+    <h1 Class="spescial-effect">This is my first website</h1>
+    <h1 Class="spescial-effect">This is my first website</h1>
+    <h1 Class="spescial-effect">This is my first website</h1>
+    
+    <input name="name" type="text">
+    <input name="email" type="email">
+    <input mane="password" type="password">
     <div>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio impedit, dolor rerum veniam, blanditiis dolore sapiente optio totam mollitia, aperiam quia. Voluptatem enim exercitationem deleniti mollitia quasi rerum tempore officia.</p>
     </div>
+        <p>Alia Alia Alia Alia </p>
+        <p>Dalia Alia Alia Alia </p>
+        <p>Malia Alia Alia Alia </p>
+        <p>Salia Alia Alia Alia </p>
+        <p>Jalia Alia Alia Alia </p>
+        <p>Kalia Alia Alia Alia </p>
+        <p>Falia Alia Alia Alia </p>
+        <p>Falia Alia Alia Alia </p>
+
+    <br>
+    <a href="www.google.com">google</a>
+    <a href="www.youtube.com">youtube</a>
+    
 </body>
 </html>
